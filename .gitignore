@@ -1,0 +1,17 @@
+.vscode
+.idea
+
+# Ignore build artifacts from the local tests sub-crate.
+target
+artifacts
+notes
+
+# Remove Cargo.lock when creating an executable, leave it for libraries
+# More information here http://doc.crates.io/guide.html#cargotoml-vs-cargolock
+Cargo.lock
+
+# macOS
+.DS_Store
+
+.cargo/config.toml
+
